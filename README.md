@@ -3,7 +3,7 @@ NumLogicExplorer
 NumLogicExplorer es un juego de consola desarrollado en Java donde el usuario debe adivinar un número secreto generado aleatoriamente según el nivel de dificultad seleccionado.
 El proyecto aplica el patrón MVC (Modelo–Vista–Controlador) para separar la lógica del negocio, la interacción con el usuario y el control del flujo del juego.
 
-📌 Características principales
+Características principales
 
 Selección de niveles de dificultad
 
@@ -35,7 +35,7 @@ Control de errores: InputMismatchException
 
 Paradigma: Programación Orientada a Objetos (POO)
 
-📂 Estructura del proyecto
+Estructura del proyecto
 NumLogicExplorer/
 │
 ├── GameModel.java        // Lógica del juego y reglas
@@ -43,7 +43,7 @@ NumLogicExplorer/
 ├── GameController.java  // Control del flujo del juego
 └── NumLogicExplorer.java// Clase principal (main)
 
-🧩 Descripción de las clases
+ Descripción de las clases
 🔹 GameModel
 
 Encargada de la lógica del juego.
@@ -94,7 +94,7 @@ Responsabilidad:
 
 Iniciar la ejecución del programa
 
-▶️ Cómo ejecutar el proyecto
+ Cómo ejecutar el proyecto
 
 Clona el repositorio:
 
@@ -115,7 +115,7 @@ Ejecuta el juego:
 
 java NumLogicExplorer
 
-🎯 Ejemplo de ejecución
+Ejemplo de ejecución
 Seleccione nivel de dificultad:
 1. Básico (1-10)
 2. Intermedio (1-100)
@@ -129,7 +129,7 @@ Ingrese un número: 32
 Intentos: 5
 Tiempo: 18 segundos
 
-📚 Conceptos aplicados
+ Conceptos aplicados
 
 Programación Orientada a Objetos (POO)
 
@@ -140,8 +140,7 @@ Manejo de excepciones
 Control de flujo
 
 Buenas prácticas de organización de código
-
-👩‍💻 Autor
+Autor
 
 Janeth Jelitza Pachón Vega
 Estudiante de programación
