@@ -1,7 +1,7 @@
 # NumLogic Explorer 
-NumLogic Explorer es una aplicación educativa desarrollada en Java como programa de consola, cuyo objetivo es fortalecer el razonamiento lógico del usuario mediante un juego de adivinanza de números. El sistema permite interactuar de forma sencilla, recibir retroalimentación inmediata y analizar el desempeño del usuario a través de métricas básicas.
+- NumLogic Explorer es una aplicación educativa desarrollada en Java como programa de consola, cuyo objetivo es fortalecer el razonamiento lógico del usuario mediante un juego de adivinanza de números. El sistema permite interactuar de forma sencilla, recibir retroalimentación inmediata y analizar el desempeño del usuario a través de métricas básicas.
 
-Este proyecto fue desarrollado como parte de la asignatura **Arquitectura de Software**, aplicando buenas prácticas de diseño, el patrón arquitectónico Modelo–Vista–Controlador (MVC) y un ciclo de vida de desarrollo de software completo.
+- Este proyecto fue desarrollado como parte de la asignatura **Arquitectura de Software**, aplicando buenas prácticas de diseño, el patrón arquitectónico Modelo–Vista–Controlador (MVC) y un ciclo de vida de desarrollo de software completo.
 ---
 ## Funcionalidades principales
 
@@ -64,8 +64,8 @@ La documentación completa del proyecto incluye:
 - Conclusiones.
 ---
 ## Autor
-Janeth Jelitza Pachon vega
+- Janeth Jelitza Pachon vega
 ---
 ## licencia
-Este proyecto se desarrolla con fines académicos y educativos.
+E- ste proyecto se desarrolla con fines académicos y educativos.
 
