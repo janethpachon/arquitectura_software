@@ -67,5 +67,5 @@ La documentación completa del proyecto incluye:
 - Janeth Jelitza Pachon vega
 ---
 ## licencia
-E- ste proyecto se desarrolla con fines académicos y educativos.
+- Este proyecto se desarrolla con fines académicos y educativos.
 
