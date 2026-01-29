@@ -1,147 +1,71 @@
-NumLogicExplorer
+# NumLogic Explorer 
+NumLogic Explorer es una aplicación educativa desarrollada en Java como programa de consola, cuyo objetivo es fortalecer el razonamiento lógico del usuario mediante un juego de adivinanza de números. El sistema permite interactuar de forma sencilla, recibir retroalimentación inmediata y analizar el desempeño del usuario a través de métricas básicas.
 
-NumLogicExplorer es un juego de consola desarrollado en Java donde el usuario debe adivinar un número secreto generado aleatoriamente según el nivel de dificultad seleccionado.
-El proyecto aplica el patrón MVC (Modelo–Vista–Controlador) para separar la lógica del negocio, la interacción con el usuario y el control del flujo del juego.
+Este proyecto fue desarrollado como parte de la asignatura **Arquitectura de Software**, aplicando buenas prácticas de diseño, el patrón arquitectónico Modelo–Vista–Controlador (MVC) y un ciclo de vida de desarrollo de software completo.
+---
+## Funcionalidades principales
 
-Características principales
+- Generación de un número secreto de forma aleatoria.
+- Selección de niveles de dificultad (básico, intermedio y avanzado).
+- Validación de entradas no numéricas.
+- Control de valores fuera del rango permitido.
+- Comparación del número ingresado con el número secreto.
+- Mensajes de retroalimentación (“es mayor”, “es menor”).
+- Conteo de intentos realizados.
+- Cálculo del tiempo transcurrido durante la partida.
+- Visualización del resultado final del juego.
+---
+## Arquitectura del sistema
 
-Selección de niveles de dificultad
+El sistema está diseñado siguiendo el patrón **Modelo–Vista–Controlador (MVC)**, lo que permite una clara separación de responsabilidades:
 
-Básico: números del 1 al 10
+- **Modelo:** gestiona la lógica del negocio, incluyendo el número secreto, los intentos y el tiempo.
+- **Vista:** maneja la interacción con el usuario a través de la consola.
+- **Controlador:** coordina el flujo del sistema y la comunicación entre el modelo y la vista.
 
-Intermedio: números del 1 al 100
+Esta arquitectura facilita la mantenibilidad y la evolución del sistema.
+---
+##  Tecnologías utilizadas
+- Lenguaje de programación: **Java**
+- Tipo de aplicación: **Consola**
+- Paradigma: **Programación Orientada a Objetos**
+- Diagramación: **UML**
+- Control de versiones: **Git / GitHub**
 
-Avanzado: números del 1 al 1000
+---
+## Ejecución del programa
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/janethpachon/arquitectura_software
+---
+2. Accede al directorio del proyecto:
+- cd NumLogicExplorer
+3. Compila el programa:
+- javac NumLogicExplorer.java
+4. Ejecuta la aplicación:
+- java NumLogicExplorer
 
-Validación de entradas numéricas
+---
+## Pruebas del sistema
+El sistema fue validado mediante pruebas unitarias y pruebas de frontera, incluyendo:
+- Ingreso de valores no numéricos.
+- Ingreso de números fuera del rango permitido.
+- Validación del incremento del contador de intentos.
+- Verificación del cálculo del tiempo transcurrido.
+- Comprobación del resultado final del juego.
+Las evidencias de estas pruebas se documentan en el informe académico asociado al proyecto.
+---
+## Documentación
+La documentación completa del proyecto incluye:
+- Especificación de requisitos.
+- Diseño de software (diagramas UML).
+- Implementación del sistema.
+- Pruebas y evidencias.
+- Conclusiones.
+---
+## Autor
+Janeth Jelitza Pachon vega
+---
+## licencia
+Este proyecto se desarrolla con fines académicos y educativos.
 
-Mensajes de ayuda (“Es mayor”, “Es menor”)
-
-Conteo de intentos
-
-Medición del tiempo total de juego
-
-Arquitectura basada en MVC
-
-🛠️ Tecnologías utilizadas
-
-Lenguaje: Java
-
-Entrada de datos: Scanner
-
-Generación aleatoria: Random
-
-Control de errores: InputMismatchException
-
-Paradigma: Programación Orientada a Objetos (POO)
-
-Estructura del proyecto
-NumLogicExplorer/
-│
-├── GameModel.java        // Lógica del juego y reglas
-├── GameView.java         // Interacción con el usuario
-├── GameController.java  // Control del flujo del juego
-└── NumLogicExplorer.java// Clase principal (main)
-
- Descripción de las clases
-🔹 GameModel
-
-Encargada de la lógica del juego.
-
-Responsabilidades:
-
-Generar el número secreto
-
-Validar si el número ingresado está dentro del rango
-
-Comparar el número del usuario con el número secreto
-
-Contar intentos
-
-Calcular el tiempo transcurrido
-
-🔹 GameView
-
-Encargada de la interacción con el usuario.
-
-Responsabilidades:
-
-Mostrar mensajes en consola
-
-Solicitar el nivel de dificultad
-
-Leer y validar la entrada del usuario
-
-🔹 GameController
-
-Actúa como intermediario entre el modelo y la vista.
-
-Responsabilidades:
-
-Inicializar el juego
-
-Controlar el ciclo principal
-
-Validar las jugadas
-
-Mostrar resultados finales
-
-🔹 NumLogicExplorer
-
-Clase principal que contiene el método main.
-
-Responsabilidad:
-
-Iniciar la ejecución del programa
-
- Cómo ejecutar el proyecto
-
-Clona el repositorio:
-
-git clone https://github.com/tu-usuario/NumLogicExplorer.git
-
-
-Entra a la carpeta del proyecto:
-
-cd NumLogicExplorer
-
-
-Compila el programa:
-
-javac NumLogicExplorer.java
-
-
-Ejecuta el juego:
-
-java NumLogicExplorer
-
-Ejemplo de ejecución
-Seleccione nivel de dificultad:
-1. Básico (1-10)
-2. Intermedio (1-100)
-3. Avanzado (1-1000)
-Ingrese un número: 50
-Es menor
-Ingrese un número: 25
-Es mayor
-Ingrese un número: 32
-¡Adivinaste!
-Intentos: 5
-Tiempo: 18 segundos
-
- Conceptos aplicados
-
-Programación Orientada a Objetos (POO)
-
-Patrón de diseño MVC
-
-Manejo de excepciones
-
-Control de flujo
-
-Buenas prácticas de organización de código
-Autor
-
-Janeth Jelitza Pachón Vega
-Estudiante de programación
-Proyecto académico en Java
