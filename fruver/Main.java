@@ -1,5 +1,8 @@
+
 import application.DespacharCamionUseCase;
-import domain.*;
+import domain.Camion;
+import domain.CamionRepository;
+import domain.Carga;
 import infrastructure.CamionRepositoryImpl;
 
 public class Main {
